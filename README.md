@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/cover.png" alt="Project Cover"/>
+  <img src="images/projectcover.png" alt="Project Cover"/>
 </p>
 
 # MCP 天气预警服务

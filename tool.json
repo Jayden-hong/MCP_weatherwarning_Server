@@ -1,0 +1,48 @@
+{
+    "tools": [
+      {
+        "name": "lookup_city_tool",
+        "description": "查询城市 LocationID",
+        "parameters": {
+          "city": {
+            "type": "string",
+            "description": "城市中文名，如“上海”"
+          }
+        },
+        "returns": {
+          "locationId": {
+            "type": "string",
+            "description": "城市的 LocationID"
+          },
+          "error": {
+            "type": "string",
+            "description": "未找到城市时的错误信息"
+          }
+        }
+      },
+      {
+        "name": "get_warning_tool",
+        "description": "获取指定城市的灾害预警信息，除龙岗外，其余城市调用此工具请先调用lookup_city_tool查询城市的locationid",
+        "parameters": {
+          "city": {
+            "type": "string",
+            "description": "用LocationID查询，留空则默认龙岗"
+          }
+        },
+        "returns": {
+          "warnings": {
+            "type": "array",
+            "description": "预警信息列表"
+          },
+          "message": {
+            "type": "string",
+            "description": "无预警时的提示"
+          },
+          "error": {
+            "type": "string",
+            "description": "API错误信息"
+          }
+        }
+      }
+    ]
+  }

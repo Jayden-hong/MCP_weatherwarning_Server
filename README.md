@@ -2,9 +2,11 @@
   <img src="images/projectcover.png" alt="Project Cover"/>
 </p>
 
+> [English version available in README-EN.md](./README-EN.md)
+
 # MCP 天气预警服务
 
-本项目基于 FastMCP，提供中国城市天气/灾害预警信息查询工具，支持通过城市名查询 LocationID 及获取实时气象灾害预警。
+本项目基于 FastMCP，提供中国/全球各城市天气/灾害预警信息查询工具，支持通过城市名查询 LocationID 及获取实时气象灾害预警。
 
 ## 工具简介
 - 查询城市 LocationID

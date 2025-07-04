@@ -1,6 +1,6 @@
- <p align="center">
-   <img src="images/cover.png" alt="Project Cover" width="600"/>
- </p>
+<p align="center">
+  <img src="images/cover.png" alt="Project Cover"/>
+</p>
 
 # MCP 天气预警服务
 

@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configuration
-Edit `config.py` and fill in your QWeather API credentials. You can obtain these from https://dev.qweather.com/:
+Edit `config.py` and fill in your QWeather API credentials. You can obtain these from https://dev.qweather.com/
 ```python
 API_HOST = "Your API host (see your QWeather console settings)"
 API_KEY = "Your API key"

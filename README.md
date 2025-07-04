@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. 配置
-直接编辑 `config.py`，填写你的和风天气 API 信息，地址：https://dev.qweather.com/：
+直接编辑 `config.py`，填写你的和风天气 API 信息，地址：https://dev.qweather.com/
 ```python
 API_HOST = "你的host地址，可以在控制台-设置中查看你的API Host"
 API_KEY = "你的API密钥"

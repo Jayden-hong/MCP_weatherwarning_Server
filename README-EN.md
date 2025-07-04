@@ -12,12 +12,17 @@ This project is built on FastMCP and provides a professional weather and disaste
 - Query LocationID by city name
 - Retrieve real-time weather and disaster alerts for any supported city worldwide
 
+
 ## Tool Overview
 This project provides two core tools, which are designed to work together:
 1. `lookup_city_tool(city: str)`: Query the unique LocationID for a given city name.
 2. `get_warning_tool(city: str = "")`: Retrieve weather and disaster alerts for a specified city using its LocationID.
 
 **Recommended workflow:** First use `lookup_city_tool` to obtain the LocationID for your target city, then pass this ID to `get_warning_tool` to get the latest alerts.
+
+## Demo
+
+![Demo](images/demo.gif)
 
 ## Quick Start
 

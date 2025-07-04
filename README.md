@@ -19,6 +19,10 @@
 
 **建议先使用 `lookup_city_tool` 获取城市的 LocationID，再将该 ID 作为参数传递给 `get_warning_tool` 查询天气预警。**
 
+## 效果演示
+
+![Demo](images/demo.gif)
+
 ## 快速开始
 
 ### 1. 克隆项目
